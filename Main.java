@@ -7,22 +7,22 @@ public class Main {
         String shapeType = sc.nextLine();
         switch (shapeType) {
             case "круг" -> {
-                circle circle = new circle("круг");
-                circle.input();
-                circle.perimeter();
-                circle.area();
+                Circle Circle = new Circle("круг");
+                Circle.input();
+                Circle.perimeter();
+                Circle.area();
             }
             case "квадрат" -> {
-                square square = new square("квадрат");
-                square.input();
-                square.perimeter();
-                square.area();
+                Square Square = new Square("квадрат");
+                Square.input();
+                Square.perimeter();
+                Square.area();
             }
             case "прямоугольник" -> {
-                rectangle rectangle = new rectangle("прямоугольник");
-                rectangle.input();
-                rectangle.perimeter();
-                rectangle.area();
+                Rectangle Rectangle = new Rectangle("прямоугольник");
+                Rectangle.input();
+                Rectangle.perimeter();
+                Rectangle.area();
             }
         }
 
